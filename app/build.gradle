@@ -4,8 +4,8 @@ android {
     compileSdkVersion 24
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.example.administrator.coolweather"
-        minSdkVersion 11
+        applicationId "com.example.administrator.c"
+        minSdkVersion 14
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -15,11 +15,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
-    sourceSets {
-        main {
-            assets.srcDirs = ['src/main/assets', 'src/main/assets/litepal', 'src/main/assets/litepal.xml', 'src/main/assets/']
         }
     }
 }
